@@ -4,6 +4,8 @@ import styles from "../../styles/Hero.module.css"
 import cam from "../../public/camera.jpg"
 import photograph from "../../public/photograph.jpg"
 
+import Fade from "react-reveal/fade"
+
 const Hero = () => {
   return (
     <div className={`${styles.hero} grid grid-cols-2 gap-20 w-full items-center justify-items-center mb-40`}>
@@ -27,9 +29,11 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        <div className="hero-right">
-            <Image className="rounded-md shadow-lg shadow-black" src={photograph} alt="photograph" height="400" width="500" placeholder="blur" />
-        </div>
+        <Fade right> 
+            <div className="hero-right">
+                <Image className="rounded-md shadow-lg shadow-black" src={photograph} alt="photograph" height="400" width="500" placeholder="blur" />
+            </div>
+        </Fade>
     </div>
   )
 }

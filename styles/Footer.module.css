@@ -1,4 +1,30 @@
 .footer {
     /* width: 80%; */
+    padding: 60px;
+    height: 400px;
     /* margin: 0 auto; */
+}
+
+.footer_height {
+    height: 80%;
+}
+
+.center_footer a {
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.notActive {
+    font-weight: 500;
+}
+
+.left_footer {
+    height: 100%;
+}
+
+.right_footer {
+    height: 100%;
 }
