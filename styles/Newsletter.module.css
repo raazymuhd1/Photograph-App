@@ -1,0 +1,18 @@
+.newsletter {
+    min-height: 400px;
+}
+
+.email_details {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 20px;
+}
+
+.input_field {
+    width: 400px;
+}
+
+.input {
+    width: 100%;
+    padding: 20px;
+}

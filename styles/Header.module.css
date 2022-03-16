@@ -1,0 +1,9 @@
+.header {
+    height: 100px;
+    /* margin-bottom: 450px; */
+}
+
+.headerList {
+    list-style: none;
+    margin-right: 35px;
+}
