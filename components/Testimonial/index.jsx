@@ -5,7 +5,7 @@ import { ImQuotesLeft, ImQuotesRight } from "react-icons/im"
 
 const Testimonial = () => {
   return (
-    <div className={`${styles.testimoni} mt-28 flex justify-between`}>
+    <div className={`${styles.testimoni} mt-28 flex flex-col md:flex-row-reverse justify-between`}>
       <div className="testimoni_details flex flex-col justify-between">
           <div className="info_details h-28 flex flex-col justify-between">
               <h2 className="uppercase text-6xl"> Testimonials </h2>
@@ -20,12 +20,12 @@ const Testimonial = () => {
             <ImQuotesRight className="text-6xl ml-28 " /> 
           </div>
            <div className="person_details">
-              <span className="font-semibold mb-3.5"> Shirline Dungey </span>
+              <span className="font-semibold mb-8 "> Shirline Dungey </span>
               <p className="text-gray-500"> UI/UX DESIGNER </p>
            </div>
       </div>
       
-      <Image className="rounded-full shadow-md shadow-cyan-500/50" src={person} alt="testimoni photos" height="400" width="400" />
+      <Image className="rounded-full mt-8 md:mt-0 shadow-md shadow-cyan-500/50" src={person} alt="testimoni photos" height="400" width="400" />
     </div>
   )
 }

@@ -8,18 +8,18 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
 
 const Portfolio = () => {
   return (
-    <div className={`${styles.portfolio}`}>
-        <div className="portfolio-top flex justify-between h-28 mb-16">
+    <div className={`${styles.portfolio} mt-16 md:mt-0`}>
+        <div className="portfolio-top flex flex-col md:flex-row justify-between items-center">
             <div className="details flex flex-col justify-between">
                 <h2 className="uppercase text-6xl"> OUR PORTFOLIO </h2>
-                <span className="font-semibold text-lg text-gray-500"> capturing people and moments </span>
+                <span className="font-semibold text-lg text-gray-500 mt-8 md:mt-0 mb-6"> capturing people and moments </span>
             </div>
-            <p className="font-semibold text-lg text-gray-500 leading-8"> Marks and Devious Semikoli, but the little Blind Text <br />
+            <p className="font-semibold text-lg text-gray-500 leading-8 mb-16"> Marks and Devious Semikoli, but the little Blind Text <br />
                 didn't listen, She packed her seven versalia, put her <br />
                 initial into the belt and made herself on the way
             </p>
         </div>
-        <div className ={`${styles.portfolio_center} mb-16 `}>
+        <div className ={`${styles.portfolio_center} mt-4 md:mt-8 mb-16`}>
              <Image className={`${styles.img1}`} src={photo1} alt="photo1" height="300" width="300" placeholder="blur" />
              <Image className={`${styles.img2}`} src={photo2} alt="photo2" height="300" width="300" placeholder="blur" />
              <Image className={`${styles.img3}`} src={photo3} alt="photo3" height="300" width="300" placeholder="blur" />

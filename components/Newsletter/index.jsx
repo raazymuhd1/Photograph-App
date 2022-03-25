@@ -5,7 +5,7 @@ const Newsletter = () => {
     <div className={`${styles.newsletter} flex flex-col justify-around items-center mt-28`}>
         <div className="newsletter_details h-40 flex flex-col justify-between items-center">
             <h2 className="uppercase text-6xl"> Newsletter </h2>
-            <p className="font-semibold text-gray-500 font-normal text-3xl">Enter your email and start to <br />
+            <p className="font-semibold text-gray-500 font-normal text-2xl md:text-3xl">Enter your email and start to <br />
                 collaborate a team with us
             </p>
         </div>

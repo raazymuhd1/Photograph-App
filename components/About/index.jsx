@@ -5,13 +5,13 @@ import Fade from "react-reveal/fade"
 
 const About = () => {
   return (
-    <div className={`${styles.about} flex justify-between items-center mb-28`}>
+    <div className={`${styles.about} flex flex-col md:flex-row justify-between items-center mb-28`}>
         <Fade left>
             <Image className="rounded-md" src={photograph2} alt="photograph2" height="400" width="500" placeholder="blur" />
         </Fade>
 
         <Fade right>
-            <div className="about-right">
+            <div className="about-right mt-8 md:mt-0">
                 <h2 className="uppercase text-6xl font-medium"> About Us </h2>
                 <p className="mt-8 capitalize font-semibold text-lg text-gray-500"> Alone all happy asked begin fully stand own get <br />
                 excuse seeing result of we, see scale dried alone <br />

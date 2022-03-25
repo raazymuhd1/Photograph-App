@@ -1,7 +1,8 @@
 .footer {
     /* width: 80%; */
     padding: 60px;
-    height: 400px;
+    min-height: 300px;
+    /* height: 800px; */
     /* margin: 0 auto; */
 }
 

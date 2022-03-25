@@ -8,7 +8,7 @@ import Fade from "react-reveal/fade"
 
 const Hero = () => {
   return (
-    <div className={`${styles.hero} grid grid-cols-2 gap-20 w-full items-center justify-items-center mb-40`}>
+    <div className={`${styles.hero} grid grid-cols-1 md:grid-cols-2 gap-20 w-full items-center justify-items-center mb-40`}>
         <div className="hero-left flex flex-col">
             <h2 className="uppercase mb-6 text-7xl"> Capturing <br /> Beauty Photo </h2>
             <p className="capitalize mb-6 font-semibold text-lg text-gray-500"> a camera is an optical instrument that <br />
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
         </div>
         <Fade right> 
-            <div className="hero-right">
+            <div className="hero-right hidden md:inline">
                 <Image className="rounded-md shadow-lg shadow-black" src={photograph} alt="photograph" height="400" width="500" placeholder="blur" />
             </div>
         </Fade>

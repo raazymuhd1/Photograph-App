@@ -12,6 +12,12 @@
     width: 400px;
 }
 
+@media screen and (max-width: 600px) {
+    .input_field {
+        width: 250px;
+    }
+}
+
 .input {
     width: 100%;
     padding: 20px;
