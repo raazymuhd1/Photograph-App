@@ -1,9 +1,7 @@
-import styles from "../../styles/Portfolio.module.css"
-import photo1 from "../../public/photo1.jpg"
-import photo2 from "../../public/photo2.jpg"
-import photo3 from "../../public/photo3.jpg"
-import photo4 from "../../public/photo4.jpg"
 import Image from "next/image"
+import styles from "../../styles/Portfolio.module.css"
+import { photo1, photo2, photo3, photo4 } from "../../public"
+
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
 
 const Portfolio = () => {
