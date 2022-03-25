@@ -2,7 +2,7 @@ import { useState, Fragment } from "react"
 import Link from "next/link"
 import styles from "../../styles/Header.module.css"
 import { FaCamera } from "react-icons/fa"
-import { CgDetailsMore, CgClose } from "react-icons/cg"
+import { CgDetailsMore } from "react-icons/cg"
 
 const Header = () => {
     const [show, setShow] = useState(false)
@@ -24,20 +24,20 @@ const Header = () => {
                 <h2 className="header-title ml-2 text-xl font-semibold tracking-widest"> Raazy <br/> <span className="text-gray-400 tracking-tight">photography</span> 
                 </h2>
             </div>
-            <div className={`${styles.center_header} grid grid-cols-1 md:grid-cols-5 justify-center gap-10`}>
-                <li className={`${styles.headerList} font-extrabold`}>
+            <div className={`${styles.center_header} grid grid-cols-1 md:grid-cols-5 justify-center gap-10 text-gray-500 font-semibold`}>
+                <li className={`${styles.headerList} text-black font-extrabold`}>
                     <Link href="#">Home</Link>
                 </li>
-                <li className={`${styles.headerList} text-gray-500 font-semibold`}>
+                <li className={`${styles.headerList}`}>
                     <Link href="#">About</Link>
                 </li>
-                <li className={`${styles.headerList} text-gray-500 font-semibold`}>
+                <li className={`${styles.headerList}`}>
                     <Link href="#">Explore</Link>
                 </li>
-                <li className={`${styles.headerList} text-gray-500 font-semibold`}>
+                <li className={`${styles.headerList}`}>
                     <Link href="#">Blog</Link>
                 </li>
-                <li className={`${styles.headerList} text-gray-500 font-semibold`}>
+                <li className={`${styles.headerList}`}>
                     <Link href="#">Contact</Link>
                 </li>
             </div>
