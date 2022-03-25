@@ -1,6 +1,7 @@
 import styles from "../../styles/Testimonial.module.css"
 import Image from "next/image"
 import person from "../../public/person.jpg"
+// icons from react-icons library
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im"
 
 const Testimonial = () => {
