@@ -4,7 +4,7 @@ import styles from "../../styles/Hero.module.css"
 import cam from "../../public/camera.jpg"
 import photograph from "../../public/photograph.jpg"
 
-import Fade from "react-reveal/fade"
+// import Fade from "react-reveal/fade"
 
 const Hero = () => {
   return (
@@ -29,11 +29,11 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        <Fade right> 
+        {/* <Fade right>  */}
             <div className="hero-right hidden md:inline">
                 <Image className="rounded-md shadow-lg shadow-black" src={photograph} alt="photograph" height="400" width="500" placeholder="blur" />
             </div>
-        </Fade>
+        {/* </Fade> */}
     </div>
   )
 }
