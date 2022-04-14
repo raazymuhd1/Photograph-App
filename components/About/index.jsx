@@ -6,9 +6,9 @@ import styles from "../../styles/About.module.css"
 const About = () => {
   return (
     <div className={`${styles.about} flex flex-col md:flex-row justify-between items-center mb-28`}>
-        <Fade left>
+        {/* <Fade left> */}
             <Image className="rounded-md" src={photograph2} alt="photograph2" height="400" width="500" placeholder="blur" />
-        </Fade>
+        {/* </Fade> */}
 
         {/* <Fade right> */}
             <div className="about-right mt-8 md:mt-0">
